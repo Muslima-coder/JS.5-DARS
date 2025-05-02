@@ -281,10 +281,10 @@
 // let ageBirXillar = []
 // let hobbyBirXillar = []
 // for(let i = 0; i < arr.length; i++){
-//   if(arr[i].age === arr[i].age  ){
+//   if(arr[i].age === arr[i + 1].age  ){
 //     console.log("Yoshi bir xilliklar", arr[i].age)
 //   }
-//   if(arr[i].hobby === arr[i].hobby  ){
+//   if(arr[i].hobby === arr[i + 1].hobby  ){
 //     console.log("Hobbysi bir xilliklar", arr[i].hobby)
 //   }
 // }
@@ -346,6 +346,7 @@
 //   console.log("Ism qo'shildi:", sizeName);
 // }
 
+
 //5-misol
 // let son = Number(prompt("Ixtiyoriy son kiriting:"));
 // let array = [];
@@ -402,10 +403,15 @@
 
 
 //4-misol
-
-
-
-
+// let num = Number(prompt ("ixtiyoriy son kiriting"))
+// function fn(n){
+//   console.log(n);
+//   let newN = n - 1
+//   if(newN > 0){
+//     fn(newN)
+//   }
+// }
+// fn(num)
 
 
 
@@ -489,19 +495,28 @@
 
 
 //4-misol
-let son = Number(prompt("ixtiyoriy son kiriting"))
-let arrSon = [88,75,342,21,45,67]
-for( var i = arrSon; i < arrSon.length; i++) {
-  if(son === arrSon.includes ){
-   arrSon[i].pop
-  }
-}
-console.log(arrSon[i])
+// let son = Number(prompt("Ixtiyoriy son kiriting"));
+// let arrSon = [88, 75, 342, 21, 45, 67];
 
+// for (var i = 0; i < arrSon.length; i++) {
+//   if (arrSon[i] === son) {
+//     arrSon.splice(i, 1);
+//     break; 
+//   }
+// }
 
+// console.log(arrSon);
 
 //5-misol
-// let son = [1, 2, 3, 4, 5]
-// function kattaYigindi (){
+// let son = [1, 2, 3, 4, 5];
 
+// function kattaYigindi(arr) {
+//   arr.sort(function(a, b) {
+//     return b - a;
+//   });
+
+//   let yigindi = arr[0] + arr[1];
+//   console.log("Eng katta yig'indi:", yigindi);
 // }
+
+// kattaYigindi(son);
