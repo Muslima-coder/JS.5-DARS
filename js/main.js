@@ -437,7 +437,7 @@
 
 
 //8-misol
-// let arr = [2, 4, 6, 7, true, false, null, undefined];
+// let arr = [1, 2, 3, true, false, null, undefined];
 // let yigindi = 0;
 
 // for (let i = 0; i < arr.length; i++) {
@@ -446,7 +446,7 @@
 //   }
 // }
 
-// console.log("Yig'indi:", yigindi);
+// console.log("Yig'indi:", yigindi + 1);
 
 
 
